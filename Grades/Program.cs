@@ -178,5 +178,10 @@ namespace Grades
             IncrementNumber(out x);
             Console.WriteLine(x);
         }
+
+        private static void ShowMessage(string msg)
+        {
+            Console.WriteLine("msg");
+        }
     }
 }
